@@ -1,0 +1,17 @@
+﻿<Window x:Class="Pract4.View.DelUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pract4.View"
+        mc:Ignorable="d"
+        Title="Borrar Usuario" Height="274" Width="268">
+    <Grid Margin="0,0,10,12">
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="16,14,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tBoxId" HorizontalAlignment="Left" Margin="41,19,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185"/>
+        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="16,187,0,0" VerticalAlignment="Top" Height="30" Width="100" Click="delClik"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="126,187,0,0" VerticalAlignment="Top" Height="30" Width="100" Click="cancelClick"/>
+        <Label x:Name="lbInfo" Content="" HorizontalAlignment="Left" Margin="16,50,0,0" VerticalAlignment="Top" Height="125" Width="210" BorderBrush="Gray" BorderThickness="1"/>
+
+    </Grid>
+</Window>

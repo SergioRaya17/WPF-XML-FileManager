@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+  <cliente>
+    <id>1</id>
+    <nombre>María Carrasco Lopez</nombre>
+    <correo>maria.carrascol@gmail.com</correo>
+  </cliente>
+  <cliente>
+    <id>2</id>
+    <nombre>José Pérez</nombre>
+    <correo>john.doe@hotmail.com</correo>
+  </cliente>
+  <cliente>
+    <id>3</id>
+    <nombre>Alfonsa Wenceslao</nombre>
+    <correo>alfon@gmail.com</correo>
+  </cliente>
+  <cliente>
+    <id>4</id>
+    <nombre>Jorge Luque</nombre>
+    <correo>jorge@gmail.com</correo>
+  </cliente>
+</clientes>

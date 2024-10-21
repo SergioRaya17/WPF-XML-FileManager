@@ -1,0 +1,19 @@
+﻿<Window x:Class="Pract4.View.AddUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pract4.View"
+        mc:Ignorable="d"
+        Title="Creación de Cliente" Height="158" Width="260">
+    <Grid Margin="0,0,10,1">
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="7,7,0,0" VerticalAlignment="Top"/>
+        <Label Content="Correo:" HorizontalAlignment="Left" Margin="7,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="7,69,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tBoxName" HorizontalAlignment="Left" Margin="72,13,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tBoxMail" HorizontalAlignment="Left" Margin="72,39,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Aceptar" HorizontalAlignment="Left" Margin="12,73,0,0" VerticalAlignment="Top" Height="26" Width="82" Click="aceptarClick"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="110,73,0,0" VerticalAlignment="Top" Height="26" Width="82" Click="cancelarClick"/>
+
+    </Grid>
+</Window>
